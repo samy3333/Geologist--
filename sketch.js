@@ -26,11 +26,11 @@ function setup() {
 	 plane= new Plane(400, 700, 800, 50);
 	 stone = new Stone(700,320,100,100);
 
-	 //	sand1 = new Sand(300,500,10);
-   // sand2 = new Sand(310,500,10);
- //   sand3 = new Sand(315,500,10);
-   // sand4 = new Sand(320,500,10);
-    //sand5 = new Sand(325,500,10);
+    sand1 = new Sand(300,500,10);
+    sand2 = new Sand(310,500,10);
+    sand3 = new Sand(315,500,10);
+    sand4 = new Sand(320,500,10);
+    sand5 = new Sand(325,500,10);
 
 	Engine.run(engine);
   
@@ -45,11 +45,11 @@ hammer.display();
 rubber.display();
 plane.display();
 stone.display()
-//sand1.display();
-//sand2.display();
-//sand3.display();
-//sand4.display();
-//sand5.display();
+sand1.display();
+sand2.display();
+sand3.display();
+sand4.display();
+sand5.display();
 }
 
 
